@@ -134,8 +134,7 @@ export default function Dashboard() {
   };
 
   const totalEmitido = 4325999;
-  const barMaxVal = Math.max(...CUSTOS_MENSAIS.map((d) => d.valor));
-
+ 
   return (
     <div style={{ fontFamily: "'Segoe UI', system-ui, sans-serif", background: "#0c0f14", color: "#e8ecf4", minHeight: "100vh", padding: "20px 16px" }}>
       {/* Header */}
