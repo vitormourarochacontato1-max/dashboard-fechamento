@@ -16,7 +16,7 @@ export default function App() {
           onChange={(e) => setSenha(e.target.value)}
         />
         <button onClick={() => {
-          if (senha === "1234") setOk(true);
+          if (senha === "4321") setOk(true);
           else alert("Senha errada");
         }}>
           Entrar
